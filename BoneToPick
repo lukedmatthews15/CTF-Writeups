@@ -1,4 +1,8 @@
 Writeup of HacktoberCTF Crypto Challenge Bone To Pick
 
-We are given a large text file claiming to be intercepted communication between two parties. It is fairly obviously base64 encoded, and has several areas where strings of text are repeated. I noticed a repetition of the base64 phrase "gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii" 
-so I ran the phrase "gAooooAKKKKACiii" through google search and boom, every match is a base64-encoded image file being sent across a network. At this point I used the handy website base64.guru to repair the output and convert it to an image file. 
+We are given a large text file claiming to be intercepted communication between two parties. 
+It is fairly obviously base64 encoded, and has several areas where strings of text are repeated. 
+I noticed a repetition of the base64 phrase
+"gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii" 
+so I ran the phrase "gAooooAKKKKACiii" through google search and boom, every match is a base64-encoded image file being sent across a network. 
+At this point I used the handy website base64.guru to repair the output and convert it to an image file. 
